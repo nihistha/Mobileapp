@@ -7,7 +7,7 @@ import 'package:classworks/screen/layout_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:classworks/screen/hello_world_screen.dart';
 
-import '../screen/radio_button.dart';
+import '../screen/radio_screen.dart';
 
 class App extends StatelessWidget {
  const App({super.key});
@@ -15,7 +15,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: RadioButton(),
+      home: RadioScreen(),
     );
 }
 }
